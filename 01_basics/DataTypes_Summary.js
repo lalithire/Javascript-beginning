@@ -18,7 +18,7 @@ console.log(id === anotherId);
 console.log(id1 === anotherId1);
 
 const bigNumber = 3456543576654356754n
-console.log(typeof bigNumber);
+//console.log(typeof bigNumber);
 
 
 
@@ -37,6 +37,35 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+//console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//*****************************************************
+
+//Memory type and datatype storing process
+//Stack memory (primitive dataTypes)
+//heap memory (referance/ non primitive dataType)
+
+let myName = "Lalit Hire"
+let myAnotherName = myName
+myAnotherName = "Shivraj Hire"
+
+//console.log(myAnotherName);
+//console.log(myName);
+
+let firstData = 
+{
+    email :"lalithireofficial1@gmail.com",
+    name : "lalit hire"
+}
+
+let secondData = firstData
+secondData.email ="lalithire4603@gmail.com",
+secondData.name = "shivraj hire"
+
+console.log(firstData.email);
+console.log(secondData.email);
+console.log(firstData.name);
+console.log(secondData.name);
