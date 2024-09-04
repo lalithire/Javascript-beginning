@@ -29,8 +29,8 @@ const bigNumber = 3456543576654356754n
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-    name: "hitesh",
-    age: 22,
+    name: "lalit",
+    age: 20,
 }
 
 const myFunction = function(){
